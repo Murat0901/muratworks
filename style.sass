@@ -1,0 +1,59 @@
+/*
+ *Theme Name: Ata 01
+ *Author: Murat Menzilci
+ *Version: 1.0
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto&display=swap')
+
+body
+  background-color: #e7e7e7
+  font-family: 'Roboto' sans-serif
+
+.container
+  width: 70%
+
+.navbar
+  height: 5em
+  
+.my-nav
+  background-color: #444349
+  font-size: 1.2em
+  letter-spacing: 2px
+
+  a
+    color: #fff
+    text-decoration: none
+
+    &:hover
+      color: #ffdb74
+      transition: 0.4s
+
+  .dropdown-menu
+    .my-link
+      margin: 0
+      padding: 0px
+
+    .dropdown-item:hover
+      background-color: #fff
+      color: #00a3c8
+      font-weight: bold
+      transition: 0.3s
+
+nav .navbar-toggler-icon
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
+
+.dropdown:hover > .dropdown-menu
+  display: block
+  transition: 2s
+  border-radius: none
+
+nav .dropdown-toggle::after
+  display: none
+  background-color: transparent
+  width: 0
+  height: 0
+
+.img-list
+  width: 350px
+  height: 100%
